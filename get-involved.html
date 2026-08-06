@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get Involved — ScholarSupport Health Literacy</title>
+<meta name="description" content="Volunteer, request a workshop for your community, or ask how to help with ScholarSupport's health literacy campaign.">
+<link rel="canonical" href="https://ksy74.github.io/ScholarSupport/get-involved.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Get Involved — ScholarSupport Health Literacy">
+<meta property="og:description" content="Volunteer, request a workshop, or ask how to help.">
+<meta property="og:url" content="https://ksy74.github.io/ScholarSupport/get-involved.html">
+<meta property="og:image" content="https://ksy74.github.io/ScholarSupport/assets/og-image.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NGO",
+  "name": "ScholarSupport",
+  "url": "https://ksy74.github.io/ScholarSupport/",
+  "telephone": "+1-732-986-3508"
+}
+</script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="index.html" class="brand">Scholar<em>Support</em></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="stats.html">Our Impact</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="get-involved.html" class="nav-cta" aria-current="page">Get Involved</a></li>
+    </ul>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="resources.html">Resources</a>
+    <a href="stats.html">Our Impact</a>
+    <a href="contact.html">Contact</a>
+    <a href="get-involved.html">Get Involved</a>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" style="padding-bottom:24px;">
+  <div class="wrap">
+    <div class="eyebrow">Get Involved</div>
+    <h1>Volunteer, or bring a workshop to your area.</h1>
+    <p class="lede">Tell us a little about yourself and how you'd like to help — whether that's leading a workshop, distributing materials, translating a lesson, or something else.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="form-card reveal">
+
+      <!--
+        Replace the placeholder below with your real Formspree endpoint:
+        1. Create a free account at https://formspree.io
+        2. Create a form and copy its endpoint, e.g. https://formspree.io/f/abcdwxyz
+        3. Paste it into the action attribute here.
+      -->
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="involveForm">
+        <input type="text" name="_gotcha" class="hp-field" tabindex="-1" autocomplete="off">
+        <input type="hidden" name="_subject" value="New Get Involved submission — ScholarSupport">
+
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+
+        <div class="field">
+          <label for="phone">Phone <span style="font-weight:400; color:var(--text-dim);">(optional)</span></label>
+          <input type="tel" id="phone" name="phone" autocomplete="tel">
+        </div>
+
+        <fieldset>
+          <legend>I am a...</legend>
+          <div class="radio-row">
+            <label class="radio-option"><input type="radio" name="role" value="Student" checked> Student</label>
+            <label class="radio-option"><input type="radio" name="role" value="Rural community volunteer"> Rural community volunteer</label>
+            <label class="radio-option"><input type="radio" name="role" value="Organization"> Organization</label>
+          </div>
+        </fieldset>
+
+        <div class="field">
+          <label for="location">Your location or region</label>
+          <input type="text" id="location" name="location" required placeholder="City, state, or region">
+        </div>
+
+        <div class="field">
+          <label for="help-type">How would you like to help?</label>
+          <select id="help-type" name="help_type" required>
+            <option value="" disabled selected>Select one</option>
+            <option>Lead a workshop</option>
+            <option>Request a workshop for my community</option>
+            <option>Distribute materials</option>
+            <option>Translate a lesson</option>
+            <option>Volunteer generally</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us a bit more — your availability, the community you'd like to reach, or any questions you have."></textarea>
+        </div>
+
+        <button type="submit" class="btn">Send message</button>
+        <div class="form-status" role="status" id="formStatus"></div>
+      </form>
+
+      <div class="fallback-note">
+        Having trouble with the form? Email us directly at
+        <a href="mailto:hello@scholarsupport.org?subject=Get%20Involved%20-%20Health%20Literacy%20Campaign">hello@scholarsupport.org</a>
+        <span style="opacity:0.7;">[EMAIL: replace with your real address]</span>
+        or call <a href="tel:+17329863508">732-986-3508</a>.
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>ScholarSupport Health Literacy · student-run, community-grounded</div>
+    <div><a href="tel:+17329863508">732-986-3508</a></div>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+<script src="forms.js"></script>
+</body>
+</html>
