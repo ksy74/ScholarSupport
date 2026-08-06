@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
 
     if (form.action.includes('YOUR_FORM_ID')) {
-      status.textContent = 'This form is not connected yet — please email hello@scholarsupport.org or call 732-986-3508 instead.';
+      status.textContent = 'This form is not connected yet. Please email hello@scholarsupport.org or call 732-986-3508 instead.';
       status.className = 'form-status error';
       return;
     }
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       if (response.ok) {
-        status.textContent = 'Thanks — we\'ll be in touch soon.';
+        status.textContent = 'Thanks! We\'ll be in touch soon.';
         status.className = 'form-status success';
         form.reset();
       } else {
