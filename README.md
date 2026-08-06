@@ -35,9 +35,11 @@ or language).
 
 Search the project for these markers and replace them with real values:
 
-- `[FILE: add your PDF here]` — six resource cards in `resources.html` link to
-  `href="#"` and need real PDF files. Add the PDFs to an `assets/` subfolder
-  and update the `href`.
+- The six lesson PDFs in `assets/lessons/` are placeholder-content starter
+  lessons (plain-language hygiene, nutrition, water safety, illness
+  recognition, and maternal/child health guidance, one translated into
+  Hindi) so the download flow works end-to-end. Swap in your own
+  reviewed materials whenever you're ready — same filenames, same folder.
 - `[EMAIL: replace with your real address]` — in `get-involved.html` and
   `contact.html`. Currently set to `hello@scholarsupport.org` as a placeholder.
 - `[STAT: fill in]` — four stat tiles in `stats.html`. The two verified
@@ -86,9 +88,11 @@ and update the `canonical`/`og:url` URLs across the HTML files and in
 ## What's real vs. placeholder
 
 Per the project's content policy, nothing on this site invents statistics,
-program names, partner organizations, or testimonials. Where a real number or
-file wasn't provided, it's marked with a clearly visible placeholder
-(`[STAT: fill in]`, `[FILE: add your PDF here]`, `[EMAIL: ...]`) instead of a
-fabricated value. The two published stats (1,200+ meals donated, 1,000+
-people reached) and the phone number (732-986-3508) are the real figures
+program names, partner organizations, or testimonials. Where a real number
+wasn't provided, it's marked with a clearly visible placeholder
+(`[STAT: fill in]`, `[EMAIL: ...]`) instead of a fabricated value. The lesson
+PDFs are starter content, not verified statistics, so they're real files
+rather than placeholders — see the note above. The two published stats
+(1,200+ meals donated, 1,000+ people reached) and the phone number
+(732-986-3508) are the real figures
 provided for this build.
